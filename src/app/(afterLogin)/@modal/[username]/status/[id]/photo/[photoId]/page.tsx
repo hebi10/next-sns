@@ -22,12 +22,12 @@ export default function Default() {
         <div className={style.image} style={{backgroundImage: `url(${photo.link})`}} />
         <div className={style.buttonZone}>
           <div className={style.buttonInner}>
-            <ActionButtons white />
+            {/* <ActionButtons white /> */}
           </div>
         </div>
       </div>
       <div className={style.commentZone}>
-        <Post noImage />
+        {/* <Post noImage /> */}
         <CommentForm />
         <Post />
         <Post />
